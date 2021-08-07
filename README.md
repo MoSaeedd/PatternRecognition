@@ -9,13 +9,13 @@ The Gammaton spectra were calculated on 25 ms long windows, each of which was ad
 I used a CNN classifier over the histogram to make use of the temporal sequnce of sounds (CNN works well for the purpose). 
 
 ## Procedure
-First Approach:
--Many simple classifiers were tested alongside with dimensionality reduction techniques (LDA and PCA). 
--Used Scikit learn with 20/80 test/train split
--The maximum testing accuracy was around 80%.
-
-Second Approach:
--We have then used a CNN with feature normalization and managed to get 94% accuracy on test dataset.
+First Approach:\
+-Many simple classifiers were tested alongside with dimensionality reduction techniques (LDA and PCA). \
+-Used Scikit learn with 20/80 test/train split.\
+-The maximum testing accuracy was around 80%.\
+\
+Second Approach:\
+-We have then used a CNN with feature normalization and managed to get 94% accuracy on test dataset.\
 -We have used keras with TF.
 
 ## Results
